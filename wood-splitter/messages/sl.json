@@ -1,1 +1,72 @@
-{}
+{
+  "Nav": {
+    "product": "Produkt",
+    "advantages": "Prednosti",
+    "audience": "Za koga",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "tagline": "Varno, pametno in sodobno cepljenje drv.",
+    "productName": "BOWS 20",
+    "cta": "Odkrijte",
+    "scrollHint": "Pomaknite se navzdol"
+  },
+  "Product": {
+    "title": "BOWS 20",
+    "subtitle": "Najhitrejši in najvarnejši bagerski cepilnik na trgu.",
+    "dualSide": "Dvostransko cepljenje",
+    "dualSideDesc": "Cepi z obeh strani hkrati za največjo učinkovitost in hitrejše delo.",
+    "wedge": "Hitromenjalni klin",
+    "wedgeDesc": "Zamenjava križevega klina v sekundah — brez orodja.",
+    "safety": "Napredna varnostna zasnova",
+    "safetyDesc": "Operater upravlja vse iz kabine bagra. Nič neposrednega stika s polenom ali mehanizmom za cepljenje.",
+    "power": "Izjemna moč",
+    "powerDesc": "Zgrajen za zahtevne profesionalne pogoje. Robustna konstrukcija za intenzivno vsakodnevno uporabo."
+  },
+  "Advantages": {
+    "title": "Zakaj Wood Splitter?",
+    "safety": "Varnost na prvem mestu",
+    "safetyDesc": "Upravljanje v celoti iz kabine bagra. Nobene nevarnosti za hrbtenico ali telo.",
+    "productivity": "Vrhunska produktivnost",
+    "productivityDesc": "Višji učinek kot katera koli tradicionalna metoda cepljenja. Dvostransko cepljenje BOWS 20 podvoji zmogljivost.",
+    "accessibility": "Deluje kjerkoli",
+    "accessibilityDesc": "Traktor ni potreben. Če imate bager, imate vse. Deluje v gozdu, na pobočjih in v odročnem terenu.",
+    "durability": "Zgrajen za trajnost",
+    "durabilityDesc": "Zasnovan in izdelan za zahtevno profesionalno uporabo. Dan za dnem."
+  },
+  "Audience": {
+    "title": "Za koga je namenjen?",
+    "foresters": "Profesionalni gozdarji",
+    "forestersDesc": "Velika količina drv z največjo varnostjo in učinkovitostjo.",
+    "farmers": "Kmetje",
+    "farmersDesc": "Predelava lesa z lastnega posestva brez traktorja ali ločenega stroja.",
+    "homeUsers": "Zahtevni domači uporabniki",
+    "homeUsersDesc": "Vsak z bagerjem, ki si sam pripravlja drva.",
+    "contractors": "Gozdarski izvajalci",
+    "contractorsDesc": "Dodajte donosen priključek k obstoječemu voznemu parku."
+  },
+  "About": {
+    "title": "O podjetju Wood Splitter",
+    "story": "Wood Splitter je slovensko podjetje, ki se ukvarja z razvojem in proizvodnjo bagerskih cepilnikov. Iz enega samega inovativnega prototipa smo zrasli v prepoznavno blagovno znamko po Sloveniji in srednji Evropi, ki ji zaupajo gozdarji, kmetje in zahtevni domači uporabniki.",
+    "anniversary": "V letu 2026 praznujemo 10 let inovacij.",
+    "mission": "Naše poslanstvo: narediti pripravo drv varnejšo, hitrejšo in lažjo — za vsakogar z bagerjem."
+  },
+  "Contact": {
+    "title": "Pišite nam",
+    "subtitle": "Imate vprašanje ali želite povpraševanje? Pošljite nam sporočilo.",
+    "namePlaceholder": "Vaše ime",
+    "emailPlaceholder": "Vaš e-naslov",
+    "messagePlaceholder": "Vaše sporočilo",
+    "submitButton": "Pošlji sporočilo",
+    "successMessage": "Hvala! Odgovorili vam bomo v kratkem.",
+    "errorMessage": "Prišlo je do napake. Poskusite znova."
+  },
+  "Footer": {
+    "tagline": "Varno, pametno in sodobno cepljenje drv.",
+    "email": "info@woodsplitter.si",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Wood Splitter. Vse pravice pridržane."
+  }
+}

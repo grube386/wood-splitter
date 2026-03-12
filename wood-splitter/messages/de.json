@@ -1,1 +1,72 @@
-{}
+{
+  "Nav": {
+    "product": "Produkt",
+    "advantages": "Vorteile",
+    "audience": "Für wen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "tagline": "Sicheres, intelligentes und modernes Holzspalten.",
+    "productName": "BOWS 20",
+    "cta": "Entdecken",
+    "scrollHint": "Nach unten scrollen"
+  },
+  "Product": {
+    "title": "BOWS 20",
+    "subtitle": "Der schnellste und sicherste baggermontierte Holzspalter.",
+    "dualSide": "Zweiseitiges Spalten",
+    "dualSideDesc": "Spaltet von beiden Seiten gleichzeitig für maximale Effizienz und schnelleres Arbeiten.",
+    "wedge": "Schnellwechsel-Keil",
+    "wedgeDesc": "Kreuzkeiltausch in Sekunden — kein Werkzeug erforderlich.",
+    "safety": "Fortschrittliches Sicherheitsdesign",
+    "safetyDesc": "Der Bediener steuert alles aus der Baggerkabine. Kein direkter Kontakt mit dem Holz oder dem Spaltmechanismus.",
+    "power": "Außergewöhnliche Leistung",
+    "powerDesc": "Gebaut für anspruchsvolle professionelle Bedingungen. Robuste Konstruktion für intensiven Tageseinsatz."
+  },
+  "Advantages": {
+    "title": "Warum Wood Splitter?",
+    "safety": "Sicherheit zuerst",
+    "safetyDesc": "Vollständige Bedienung aus der Baggerkabine. Kein Risiko für Wirbelsäule oder Körper.",
+    "productivity": "Überlegene Produktivität",
+    "productivityDesc": "Höhere Leistung als jede traditionelle Spaltmethode. Das zweiseitige Spalten des BOWS 20 verdoppelt den Durchsatz.",
+    "accessibility": "Funktioniert überall",
+    "accessibilityDesc": "Kein Traktor nötig. Mit einem Bagger haben Sie alles. Funktioniert im Wald, an Hängen und in abgelegenem Gelände.",
+    "durability": "Gebaut für Langlebigkeit",
+    "durabilityDesc": "Konzipiert und gefertigt für intensiven professionellen Einsatz. Tag für Tag."
+  },
+  "Audience": {
+    "title": "Für wen ist es gedacht?",
+    "foresters": "Forstprofis",
+    "forestersDesc": "Großmengen-Brennholzproduktion mit maximaler Sicherheit und Effizienz.",
+    "farmers": "Landwirte",
+    "farmersDesc": "Holz vom eigenen Grund verarbeiten — ohne Traktor oder Zusatzmaschine.",
+    "homeUsers": "Anspruchsvolle Heimanwender",
+    "homeUsersDesc": "Jeder mit einem Bagger, der sein eigenes Brennholz aufbereitet.",
+    "contractors": "Forstunternehmer",
+    "contractorsDesc": "Fügen Sie Ihrem bestehenden Fuhrpark einen rentablen Anbau hinzu."
+  },
+  "About": {
+    "title": "Über Wood Splitter",
+    "story": "Wood Splitter ist ein slowenischer Hersteller von baggermontierten Hydraulik-Holzspaltern. Aus einem einzigen innovativen Prototyp ist eine anerkannte Marke in Slowenien und Mitteleuropa geworden, der Forstprofis, Landwirte und anspruchsvolle Heimanwender vertrauen.",
+    "anniversary": "2026 feiern wir 10 Jahre Innovation.",
+    "mission": "Unsere Mission: Brennholzaufbereitung sicherer, schneller und einfacher machen — für jeden mit einem Bagger."
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie eine Frage oder möchten Sie ein Angebot anfragen? Schicken Sie uns eine Nachricht.",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "messagePlaceholder": "Ihre Nachricht",
+    "submitButton": "Nachricht senden",
+    "successMessage": "Vielen Dank! Wir melden uns in Kürze bei Ihnen.",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "Footer": {
+    "tagline": "Sicheres, intelligentes und modernes Holzspalten.",
+    "email": "info@woodsplitter.si",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Wood Splitter. Alle Rechte vorbehalten."
+  }
+}
