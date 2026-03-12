@@ -5,17 +5,15 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 export function ScrollReveal({
   children,
   className = '',
-  as: Tag = 'div',
 }: {
   children: React.ReactNode;
   className?: string;
-  as?: keyof React.JSX.IntrinsicElements;
 }) {
-  const ref = useScrollReveal<HTMLElement>();
+  const ref = useScrollReveal<HTMLDivElement>();
 
   return (
-    <Tag ref={ref as React.Ref<never>} className={className} data-scroll-reveal>
+    <div ref={ref} className={className} data-scroll-reveal>
       {children}
-    </Tag>
+    </div>
   );
 }

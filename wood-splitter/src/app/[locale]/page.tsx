@@ -1,5 +1,12 @@
 import { setRequestLocale } from 'next-intl/server';
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+import { Navigation } from '@/components/Navigation';
+import { Hero } from '@/components/sections/Hero';
+import { ProductVideo } from '@/components/sections/ProductVideo';
+import { About } from '@/components/sections/About';
+import { Advantages } from '@/components/sections/Advantages';
+import { ProductShowcase } from '@/components/sections/ProductShowcase';
+import { Contact } from '@/components/sections/Contact';
+import { Footer } from '@/components/sections/Footer';
 
 export default async function HomePage({
   params,
@@ -10,10 +17,23 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   return (
-    <main className="min-h-screen bg-dark text-surface-white font-body p-8">
-      <h1 className="font-heading text-4xl text-brand-red mb-4">BOWS 20</h1>
-      <p className="text-steel-light mb-6">Locale: {locale}</p>
-      <LocaleSwitcher />
-    </main>
+    <>
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-brand-red focus:text-surface-white focus:px-4 focus:py-2 focus:rounded-[4px]"
+      >
+        Skip to content
+      </a>
+      <Navigation />
+      <main id="main-content">
+        <Hero />
+        <ProductVideo />
+        <About />
+        <Advantages />
+        <ProductShowcase />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }

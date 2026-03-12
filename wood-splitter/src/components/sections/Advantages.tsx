@@ -1,14 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { Shield, Gauge, Wrench, Mountain } from 'lucide-react';
-import { AdvantageCard } from '@/components/AdvantageCard';
+import { AdvantageCards } from '@/components/AdvantageCards';
 import { ScrollReveal } from '@/components/ScrollReveal';
-
-const ADVANTAGES = [
-  { icon: Shield, titleKey: 'safety', descKey: 'safetyDesc' },
-  { icon: Gauge, titleKey: 'productivity', descKey: 'productivityDesc' },
-  { icon: Wrench, titleKey: 'easySetup', descKey: 'easySetupDesc' },
-  { icon: Mountain, titleKey: 'anyTerrain', descKey: 'anyTerrainDesc' },
-] as const;
 
 export function Advantages() {
   const t = useTranslations('Advantages');
@@ -25,17 +17,14 @@ export function Advantages() {
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {ADVANTAGES.map(({ icon, titleKey, descKey }) => (
-            <ScrollReveal key={titleKey}>
-              <AdvantageCard
-                icon={icon}
-                title={t(titleKey)}
-                description={t(descKey)}
-              />
-            </ScrollReveal>
-          ))}
-        </div>
+        <AdvantageCards
+          cards={[
+            { title: t('safety'), description: t('safetyDesc'), iconName: 'shield' },
+            { title: t('productivity'), description: t('productivityDesc'), iconName: 'gauge' },
+            { title: t('easySetup'), description: t('easySetupDesc'), iconName: 'wrench' },
+            { title: t('anyTerrain'), description: t('anyTerrainDesc'), iconName: 'mountain' },
+          ]}
+        />
       </div>
     </section>
   );

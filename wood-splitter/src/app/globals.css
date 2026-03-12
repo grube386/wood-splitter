@@ -77,3 +77,19 @@ img, video {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-brand-red);
+  outline-offset: 2px;
+}
+
+/* Skip to content — hide visually until focused */
+.sr-only:focus {
+  position: absolute;
+  width: auto;
+  height: auto;
+  clip: auto;
+  white-space: nowrap;
+  overflow: visible;
+}
