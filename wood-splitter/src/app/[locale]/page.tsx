@@ -10,9 +10,10 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   return (
-    <main>
+    <main className="min-h-screen bg-dark text-surface-white font-body p-8">
+      <h1 className="font-heading text-4xl text-brand-red mb-4">BOWS 20</h1>
+      <p className="text-steel-light mb-6">Locale: {locale}</p>
       <LocaleSwitcher />
-      <p>Locale: {locale}</p>
     </main>
   );
 }

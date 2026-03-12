@@ -1,26 +1,71 @@
+/* IMPORTANT: @import url() MUST be first — before @import "tailwindcss" */
+/* Barlow superfamily for heading + body; Space Mono for technical accent */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&family=Space+Mono:wght@400&display=swap");
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── Typography ────────────────────────────────────────────────── */
+  /* Generates: font-heading, font-body, font-mono utilities */
+  --font-heading: "Barlow Condensed", sans-serif;
+  --font-body: "Barlow", sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  /* ── Brand Red ─────────────────────────────────────────────────── */
+  /* Generates: bg-brand-red, text-brand-red, border-brand-red, etc. */
+  --color-brand-red: #D21C34;
+  --color-brand-red-hover: #B01E2E;
+  --color-brand-red-light: #E84455;
+
+  /* ── Dark Scale ────────────────────────────────────────────────── */
+  /* Generates: bg-dark, bg-dark-secondary, bg-dark-tertiary, etc.   */
+  --color-dark: #12161A;
+  --color-dark-secondary: #1E2228;
+  --color-dark-tertiary: #2A2E36;
+
+  /* ── Steel / Neutrals ──────────────────────────────────────────── */
+  --color-steel-dark: #434550;
+  --color-steel-mid: #6B6E78;
+  --color-steel-light: #B4B7C5;
+  --color-steel-silver: #D1D2D7;
+
+  /* ── Surfaces ──────────────────────────────────────────────────── */
+  --color-surface-light: #E8E9ED;
+  --color-surface-white: #F5F5F7;
+
+  /* ── Semantic ──────────────────────────────────────────────────── */
+  --color-success: #2D8A4E;
+  --color-warning: #E0A020;
+  --color-info: #3A7BD5;
+  --color-error: #D21C34;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Base styles ──────────────────────────────────────────────────── */
+/* Dark industrial aesthetic as the site default */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-surface-white);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* All-caps heading treatment — applied via CSS, not font-level */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Prevent horizontal overflow at narrow viewports (BRND-03) */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
 }
