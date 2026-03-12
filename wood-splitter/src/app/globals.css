@@ -1,15 +1,13 @@
 /* IMPORTANT: @import url() MUST be first — before @import "tailwindcss" */
-/* Barlow superfamily for heading + body; Space Mono for technical accent */
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&family=Space+Mono:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap");
 
 @import "tailwindcss";
 
 @theme {
   /* ── Typography ────────────────────────────────────────────────── */
   /* Generates: font-heading, font-body, font-mono utilities */
-  --font-heading: "Barlow Condensed", sans-serif;
-  --font-body: "Barlow", sans-serif;
-  --font-mono: "Space Mono", monospace;
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Source Sans 3", sans-serif;
 
   /* ── Brand Red ─────────────────────────────────────────────────── */
   /* Generates: bg-brand-red, text-brand-red, border-brand-red, etc. */
@@ -58,7 +56,7 @@ body {
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* Prevent horizontal overflow at narrow viewports (BRND-03) */
