@@ -30,7 +30,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Tailwind utilities for brand colors (`red-brand`, `dark-brand`) render correctly in any component
   3. The mobile-first responsive grid is in place and the site is usable on a 320px viewport
   4. All three `messages/` JSON files (`sl.json`, `en.json`, `de.json`) exist with complete namespace stubs populated from content docs
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Next.js 15 + wire next-intl routing, layouts, and LocaleSwitcher
+- [ ] 01-02-PLAN.md — Brand token system: Tailwind v4 @theme with all color and font tokens
+- [ ] 01-03-PLAN.md — Translation catalogs: populate sl.json, en.json, de.json with real content
 
 ### Phase 2: Shell
 **Goal**: Visitors see a complete page frame — sticky navigation with language switcher and anchored footer with contact info and social links
@@ -95,7 +100,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/? | Not started | - |
+| 1. Foundation | 0/3 | Not started | - |
 | 2. Shell | 0/? | Not started | - |
 | 3. Hero | 0/? | Not started | - |
 | 4. Product Content | 0/? | Not started | - |
