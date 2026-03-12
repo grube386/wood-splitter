@@ -7,6 +7,7 @@ const LOCALES = [
   { code: 'sl', label: 'SL' },
   { code: 'en', label: 'EN' },
   { code: 'de', label: 'DE' },
+  { code: 'it', label: 'IT' },
 ] as const;
 
 export function LocaleSwitcher() {

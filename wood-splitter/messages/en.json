@@ -4,16 +4,22 @@
     "advantages": "Advantages",
     "audience": "For Whom",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cta": "Get a Quote"
   },
   "Hero": {
     "tagline": "Safe, smart, and modern wood splitting.",
+    "headline": "Safe, Smart, and Modern Wood Splitting",
+    "body": "Hydraulic log splitter that mounts to your excavator. Operate everything from the cab — no manual handling, no risk.",
     "productName": "BOWS 20",
     "cta": "Discover",
+    "primaryCta": "Get a Quote",
+    "secondaryCta": "Watch It Work",
     "scrollHint": "Scroll to explore"
   },
   "Product": {
     "title": "BOWS 20",
+    "eyebrow": "Flagship Product",
     "subtitle": "The fastest and safest excavator-mounted log splitter.",
     "dualSide": "Dual-side splitting",
     "dualSideDesc": "Splits from both sides simultaneously for maximum efficiency and faster work.",
@@ -22,14 +28,20 @@
     "safety": "Advanced safety design",
     "safetyDesc": "Operator controls everything from the excavator cab. Zero direct contact with the log or splitting mechanism.",
     "power": "Exceptional power",
-    "powerDesc": "Built for demanding professional conditions. Robust construction for heavy daily use."
+    "powerDesc": "Built for demanding professional conditions. Robust construction for heavy daily use.",
+    "specsCta": "Request Specifications"
   },
   "Advantages": {
     "title": "Why Wood Splitter?",
+    "eyebrow": "Why Wood Splitter",
     "safety": "Safety First",
     "safetyDesc": "Operate entirely from the excavator cab. No standing next to the blade, no risk to your spine or body.",
     "productivity": "Superior Productivity",
     "productivityDesc": "Higher output than any traditional splitting method. Dual-side splitting on BOWS 20 doubles throughput.",
+    "easySetup": "Easy Setup",
+    "easySetupDesc": "Quick attachment to any excavator. Quick-attach cross wedge changeable in seconds without tools.",
+    "anyTerrain": "Works Anywhere",
+    "anyTerrainDesc": "Operates in terrain where tractors cannot go. Forests, slopes, remote locations.",
     "accessibility": "Works Anywhere",
     "accessibilityDesc": "No tractor needed. If you have an excavator, you have everything. Works in forests, on slopes, in remote terrain.",
     "durability": "Built to Last",
@@ -48,6 +60,7 @@
   },
   "About": {
     "title": "About Wood Splitter",
+    "headline": "10 Years of Safer Wood Splitting",
     "story": "Wood Splitter is a Slovenian manufacturer of excavator-mounted hydraulic log splitters. From a single innovative prototype, we have grown into a recognized brand across Slovenia and Central Europe, trusted by forestry professionals, farmers, and demanding home users.",
     "anniversary": "Celebrating 10 years of innovation in 2026.",
     "mission": "Our mission: make firewood processing safer, faster, and easier — for everyone with an excavator."
@@ -57,6 +70,7 @@
     "subtitle": "Have a question or want to request a quote? Send us a message.",
     "namePlaceholder": "Your name",
     "emailPlaceholder": "Your email address",
+    "phonePlaceholder": "Phone (optional)",
     "messagePlaceholder": "Your message",
     "submitButton": "Send message",
     "successMessage": "Thank you! We will get back to you shortly.",
@@ -64,6 +78,8 @@
   },
   "Footer": {
     "tagline": "Safe, smart, and modern wood splitting.",
+    "navHeading": "Navigation",
+    "contactHeading": "Contact",
     "email": "info@woodsplitter.si",
     "facebook": "Facebook",
     "instagram": "Instagram",

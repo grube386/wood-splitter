@@ -1,0 +1,88 @@
+{
+  "Nav": {
+    "product": "Prodotto",
+    "advantages": "Vantaggi",
+    "audience": "Per chi",
+    "about": "Chi siamo",
+    "contact": "Contatto",
+    "cta": "Richiedi preventivo"
+  },
+  "Hero": {
+    "tagline": "Spaccatura del legno sicura, intelligente e moderna.",
+    "headline": "Spaccatura del legno sicura, intelligente e moderna",
+    "body": "Spaccalegna idraulico che si monta sull'escavatore. Controlla tutto dalla cabina — nessuna movimentazione manuale, nessun rischio.",
+    "productName": "BOWS 20",
+    "cta": "Scopri",
+    "primaryCta": "Richiedi preventivo",
+    "secondaryCta": "Guardalo in azione",
+    "scrollHint": "Scorri per esplorare"
+  },
+  "Product": {
+    "title": "BOWS 20",
+    "eyebrow": "Prodotto di punta",
+    "subtitle": "Lo spaccalegna montato su escavatore più veloce e sicuro.",
+    "dualSide": "Spaccatura bilaterale",
+    "dualSideDesc": "Spacca da entrambi i lati contemporaneamente per la massima efficienza e un lavoro più rapido.",
+    "wedge": "Cuneo a cambio rapido",
+    "wedgeDesc": "Sostituisci il cuneo a croce in pochi secondi — senza attrezzi.",
+    "safety": "Design di sicurezza avanzato",
+    "safetyDesc": "L'operatore controlla tutto dalla cabina dell'escavatore. Zero contatto diretto con il tronco o il meccanismo di spaccatura.",
+    "power": "Potenza eccezionale",
+    "powerDesc": "Costruito per condizioni professionali impegnative. Costruzione robusta per un uso quotidiano intenso.",
+    "specsCta": "Richiedi specifiche"
+  },
+  "Advantages": {
+    "title": "Perché Wood Splitter?",
+    "eyebrow": "Perché Wood Splitter",
+    "safety": "Sicurezza prima di tutto",
+    "safetyDesc": "Opera interamente dalla cabina dell'escavatore. Nessun contatto con la lama, nessun rischio per la schiena o il corpo.",
+    "productivity": "Produttività superiore",
+    "productivityDesc": "Rendimento superiore a qualsiasi metodo tradizionale. La spaccatura bilaterale del BOWS 20 raddoppia la produttività.",
+    "easySetup": "Installazione facile",
+    "easySetupDesc": "Montaggio rapido su qualsiasi escavatore. Cuneo a cambio rapido sostituibile in secondi senza attrezzi.",
+    "anyTerrain": "Funziona ovunque",
+    "anyTerrainDesc": "Funziona in terreni dove i trattori non arrivano. Boschi, pendii, luoghi remoti.",
+    "accessibility": "Funziona ovunque",
+    "accessibilityDesc": "Nessun trattore necessario. Se hai un escavatore, hai tutto. Funziona nei boschi, sui pendii, in terreni remoti.",
+    "durability": "Costruito per durare",
+    "durabilityDesc": "Progettato e prodotto per un uso professionale intenso. Affronta condizioni impegnative giorno dopo giorno."
+  },
+  "Audience": {
+    "title": "Per chi è?",
+    "foresters": "Forestali professionisti",
+    "forestersDesc": "Produzione di legna da ardere ad alto volume con massima sicurezza ed efficienza.",
+    "farmers": "Agricoltori",
+    "farmersDesc": "Lavora il legno della tua terra senza trattore o macchina separata.",
+    "homeUsers": "Utenti domestici esigenti",
+    "homeUsersDesc": "Chiunque abbia un escavatore e prepari la propria legna da ardere.",
+    "contractors": "Imprese forestali",
+    "contractorsDesc": "Aggiungi un accessorio redditizio alla tua flotta esistente."
+  },
+  "About": {
+    "title": "Chi siamo",
+    "headline": "10 anni di spaccatura del legno più sicura",
+    "story": "Wood Splitter è un produttore sloveno di spaccalegna idraulici montati su escavatore. Da un singolo prototipo innovativo, siamo diventati un marchio riconosciuto in Slovenia e nell'Europa centrale, scelto da professionisti forestali, agricoltori e utenti domestici esigenti.",
+    "anniversary": "Celebriamo 10 anni di innovazione nel 2026.",
+    "mission": "La nostra missione: rendere la lavorazione della legna da ardere più sicura, veloce e facile — per chiunque abbia un escavatore."
+  },
+  "Contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai una domanda o vuoi richiedere un preventivo? Inviaci un messaggio.",
+    "namePlaceholder": "Il tuo nome",
+    "emailPlaceholder": "Il tuo indirizzo email",
+    "phonePlaceholder": "Telefono (facoltativo)",
+    "messagePlaceholder": "Il tuo messaggio",
+    "submitButton": "Invia messaggio",
+    "successMessage": "Grazie! Ti risponderemo al più presto.",
+    "errorMessage": "Qualcosa è andato storto. Riprova."
+  },
+  "Footer": {
+    "tagline": "Spaccatura del legno sicura, intelligente e moderna.",
+    "navHeading": "Navigazione",
+    "contactHeading": "Contatto",
+    "email": "info@woodsplitter.si",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Wood Splitter. Tutti i diritti riservati."
+  }
+}
