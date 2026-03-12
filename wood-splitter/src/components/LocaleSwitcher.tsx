@@ -23,16 +23,25 @@ export function LocaleSwitcher() {
   };
 
   return (
-    <div aria-label="Language switcher">
-      {LOCALES.map(({ code, label }) => (
-        <button
-          key={code}
-          onClick={() => switchLocale(code)}
-          disabled={isPending || code === currentLocale}
-          aria-current={code === currentLocale ? 'true' : undefined}
-        >
-          {label}
-        </button>
+    <div className="flex items-center gap-1" aria-label="Language switcher">
+      {LOCALES.map(({ code, label }, i) => (
+        <span key={code} className="flex items-center">
+          <button
+            onClick={() => switchLocale(code)}
+            disabled={isPending || code === currentLocale}
+            aria-current={code === currentLocale ? 'true' : undefined}
+            className={`px-1.5 py-1 text-sm font-body font-semibold transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center ${
+              code === currentLocale
+                ? 'text-brand-red'
+                : 'text-steel-light hover:text-surface-white'
+            }`}
+          >
+            {label}
+          </button>
+          {i < LOCALES.length - 1 && (
+            <span className="text-dark-tertiary text-sm" aria-hidden="true">|</span>
+          )}
+        </span>
       ))}
     </div>
   );
