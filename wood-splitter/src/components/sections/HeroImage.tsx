@@ -1,17 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useReducedMotion } from '@/hooks/useReducedMotion';
 
 export function HeroImage() {
-  const [reducedMotion, setReducedMotion] = useState(false);
-
-  useEffect(() => {
-    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setReducedMotion(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
-    mq.addEventListener('change', handler);
-    return () => mq.removeEventListener('change', handler);
-  }, []);
+  const reducedMotion = useReducedMotion();
 
   return (
     <img
