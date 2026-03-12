@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-03-12T13:27:40.970Z"
+stopped_at: Completed 01-foundation-01-01-PLAN.md
+last_updated: "2026-03-12T13:58:34.359Z"
 last_activity: 2026-03-12 — Roadmap created; phases derived from 16 v1 requirements
 progress:
   total_phases: 6
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 3
+  completed_plans: 1
   percent: 0
 ---
 
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01-foundation P01 | 5 | 2 tasks | 14 files |
 
 ## Accumulated Context
 
@@ -62,6 +63,8 @@ Recent decisions affecting current work:
 - [Pre-build]: Tailwind v4 CSS-first config via `@theme` in `globals.css` — no `tailwind.config.js`; brand colors map directly to CSS variables
 - [Pre-build]: Contact form uses React Hook Form + Zod + Next.js Server Action + Resend; no separate API route needed
 - [Pre-build]: Gallery deferred to v2 — GALL-01 and GALL-02 not in v1 requirements
+- [Phase 01-foundation]: Used next-intl createMiddleware(routing) for URL-prefix i18n; kept src/middleware.ts despite Next.js 16 deprecation warning since build passes and next-intl docs use middleware
+- [Phase 01-foundation]: Root layout returns children directly; html/body tags only in [locale]/layout.tsx to avoid duplicate html elements
 
 ### Pending Todos
 
@@ -74,6 +77,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-12T13:27:40.968Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation/01-CONTEXT.md
+Last session: 2026-03-12T13:58:34.355Z
+Stopped at: Completed 01-foundation-01-01-PLAN.md
+Resume file: None

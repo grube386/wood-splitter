@@ -23,7 +23,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **BRND-01**: About section with company story and 10th anniversary (2026) mention
 - [ ] **BRND-02**: Dark industrial aesthetic using brand palette (red #D21C34 + dark #12161A)
-- [ ] **BRND-03**: Responsive mobile-first layout
+- [x] **BRND-03**: Responsive mobile-first layout
 
 ### Contact
 
@@ -33,8 +33,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Internationalization
 
-- [ ] **I18N-01**: All site content available in Slovenian, English, and German
-- [ ] **I18N-02**: Language switcher UI component that changes language without page reload
+- [x] **I18N-01**: All site content available in Slovenian, English, and German
+- [x] **I18N-02**: Language switcher UI component that changes language without page reload
 
 ### Performance
 
@@ -92,12 +92,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROD-03 | Phase 4 | Pending |
 | BRND-01 | Phase 4 | Pending |
 | BRND-02 | Phase 1 | Pending |
-| BRND-03 | Phase 1 | Pending |
+| BRND-03 | Phase 1 | Complete |
 | CONT-01 | Phase 5 | Pending |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Pending |
-| I18N-01 | Phase 1 | Pending |
-| I18N-02 | Phase 1 | Pending |
+| I18N-01 | Phase 1 | Complete |
+| I18N-02 | Phase 1 | Complete |
 | PERF-01 | Phase 3 | Pending |
 | PERF-02 | Phase 6 | Pending |
 
