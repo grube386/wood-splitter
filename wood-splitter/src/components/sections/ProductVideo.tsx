@@ -6,7 +6,9 @@ export function ProductVideo() {
       <VideoShowcase
         src="/videos/product-showcase.mp4"
         poster="/videos/product-showcase-poster.jpg"
-        className="w-full max-h-[80vh] object-cover"
+        className="w-full max-h-screen object-cover"
+        scrollDriven
+        scrollHeight="300vh"
       />
     </section>
   );

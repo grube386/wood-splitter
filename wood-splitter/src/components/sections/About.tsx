@@ -23,15 +23,6 @@ export function About() {
           {t('mission')}
         </p>
       </ScrollReveal>
-
-      {/* Banner image */}
-      <div className="mt-12 md:mt-16">
-        <img
-          src="/images/wood-splitter-banner.jpg"
-          alt="BOWS 20 wood splitter with company branding"
-          className="w-full object-cover"
-        />
-      </div>
     </section>
   );
 }
