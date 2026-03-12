@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation-01-03-PLAN.md
-last_updated: "2026-03-12T14:05:11.620Z"
+stopped_at: Completed 01-foundation-01-02-PLAN.md
+last_updated: "2026-03-12T14:15:00.491Z"
 last_activity: 2026-03-12 — Roadmap created; phases derived from 16 v1 requirements
 progress:
   total_phases: 6
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
-  completed_plans: 2
+  completed_plans: 3
   percent: 0
 ---
 
@@ -52,6 +52,7 @@ Progress: [░░░░░░░░░░] 0%
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 5 | 2 tasks | 14 files |
 | Phase 01-foundation P03 | 8 | 1 tasks | 3 files |
+| Phase 01-foundation P02 | 15 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -69,6 +70,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: SL content sourced from wood-splitter-website-content.md (primary Slovenian source), not machine-translated
 - [Phase 01-foundation]: Translation files are the permanent key contract — no new keys to be added in later phases
 - [Phase 01-foundation]: DE Nav labels kept concise (7-8 chars each) to fit mobile navbar constraints
+- [Phase 01-foundation]: Tailwind v4 CSS-first config: all brand tokens in @theme block, no tailwind.config.js exists or will be created
+- [Phase 01-foundation]: Google Fonts loaded via @import url() CDN as first line of globals.css — required for Tailwind v4 font resolution
 
 ### Pending Todos
 
@@ -81,6 +84,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-12T14:05:11.616Z
-Stopped at: Completed 01-foundation-01-03-PLAN.md
+Last session: 2026-03-12T14:15:00.488Z
+Stopped at: Completed 01-foundation-01-02-PLAN.md
 Resume file: None

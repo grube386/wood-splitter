@@ -12,7 +12,7 @@ Six phases deliver a trilingual single-page premium showcase for the BOWS 20 log
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Next.js 15 project with i18n routing, Tailwind brand system, and full translation catalogs
+- [x] **Phase 1: Foundation** - Next.js 15 project with i18n routing, Tailwind brand system, and full translation catalogs (completed 2026-03-12)
 - [ ] **Phase 2: Shell** - Sticky NavBar, Footer with email and social links, and page section compositor
 - [ ] **Phase 3: Hero** - Full-screen video hero with performance-safe loading, headline, and scroll navigation
 - [ ] **Phase 4: Product Content** - All scroll sections: product showcase, advantages, audience, and about
@@ -100,7 +100,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 2/3 | In Progress|  |
+| 1. Foundation | 3/3 | Complete   | 2026-03-12 |
 | 2. Shell | 0/? | Not started | - |
 | 3. Hero | 0/? | Not started | - |
 | 4. Product Content | 0/? | Not started | - |

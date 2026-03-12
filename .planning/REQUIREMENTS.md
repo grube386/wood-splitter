@@ -22,7 +22,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Brand
 
 - [ ] **BRND-01**: About section with company story and 10th anniversary (2026) mention
-- [ ] **BRND-02**: Dark industrial aesthetic using brand palette (red #D21C34 + dark #12161A)
+- [x] **BRND-02**: Dark industrial aesthetic using brand palette (red #D21C34 + dark #12161A)
 - [x] **BRND-03**: Responsive mobile-first layout
 
 ### Contact
@@ -91,7 +91,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROD-02 | Phase 4 | Pending |
 | PROD-03 | Phase 4 | Pending |
 | BRND-01 | Phase 4 | Pending |
-| BRND-02 | Phase 1 | Pending |
+| BRND-02 | Phase 1 | Complete |
 | BRND-03 | Phase 1 | Complete |
 | CONT-01 | Phase 5 | Pending |
 | CONT-02 | Phase 2 | Pending |
