@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation-01-01-PLAN.md
-last_updated: "2026-03-12T13:58:34.359Z"
+stopped_at: Completed 01-foundation-01-03-PLAN.md
+last_updated: "2026-03-12T14:05:11.620Z"
 last_activity: 2026-03-12 — Roadmap created; phases derived from 16 v1 requirements
 progress:
   total_phases: 6
   completed_phases: 0
   total_plans: 3
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 5 | 2 tasks | 14 files |
+| Phase 01-foundation P03 | 8 | 1 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,9 @@ Recent decisions affecting current work:
 - [Pre-build]: Gallery deferred to v2 — GALL-01 and GALL-02 not in v1 requirements
 - [Phase 01-foundation]: Used next-intl createMiddleware(routing) for URL-prefix i18n; kept src/middleware.ts despite Next.js 16 deprecation warning since build passes and next-intl docs use middleware
 - [Phase 01-foundation]: Root layout returns children directly; html/body tags only in [locale]/layout.tsx to avoid duplicate html elements
+- [Phase 01-foundation]: SL content sourced from wood-splitter-website-content.md (primary Slovenian source), not machine-translated
+- [Phase 01-foundation]: Translation files are the permanent key contract — no new keys to be added in later phases
+- [Phase 01-foundation]: DE Nav labels kept concise (7-8 chars each) to fit mobile navbar constraints
 
 ### Pending Todos
 
@@ -77,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-12T13:58:34.355Z
-Stopped at: Completed 01-foundation-01-01-PLAN.md
+Last session: 2026-03-12T14:05:11.616Z
+Stopped at: Completed 01-foundation-01-03-PLAN.md
 Resume file: None
